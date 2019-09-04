@@ -9,7 +9,7 @@ const PlaylistHeader = props => {
     <StylePlaylistHeader>
       <p>{active.title}</p>
       <StyleJourney>
-        {active.number}/{total}
+        {active.num}/{total}
       </StyleJourney>
     </StylePlaylistHeader>
   );
